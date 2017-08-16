@@ -18,12 +18,13 @@ body {
 }
 
 main {
-    background-color: azure;
     padding: 16px;
 }
 
 .post {
-    margin-bottom: 48px;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: azure;
 }
 
 .post .user-info img {
@@ -31,7 +32,7 @@ main {
 }
 
 .user-id {
-  font-weight: 700;
+    font-weight: 700;
 }
 
 .photo img {
