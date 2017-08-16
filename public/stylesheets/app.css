@@ -1,0 +1,39 @@
+header {
+    background-color: #244751;
+    color: #E8FDFF;
+    margin: auto;
+    height: 5em;
+}
+
+header h1 {
+    margin:auto;
+    text-decoration: underline;
+    text-align: center;
+    font-family: Lobster;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: Raleway;
+}
+
+main {
+    background-color: azure;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+
+.post .user-info img {
+    border-radius: 25%;
+}
+
+.user-id {
+  font-weight: 700;
+}
+
+.photo img {
+    border-radius: 5%;
+}
