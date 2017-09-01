@@ -7,9 +7,9 @@ header {
 
 header h1 {
     margin:auto;
-    text-decoration: underline;
     text-align: center;
-    font-family: Lobster;
+    font-family: 'Titillium Web';
+    font-style: italic;
 }
 
 body {
