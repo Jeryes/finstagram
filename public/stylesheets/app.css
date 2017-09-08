@@ -2,14 +2,38 @@ header {
     background-color: #244751;
     color: #E8FDFF;
     margin: auto;
-    height: 5em;
+    height: 70px;
+}
+
+.login-info {
+    z-index: 50;
+    margin: 10px 0 0 0;
+}
+
+.button {
+    background: orange;
+    border-radius: 2px;
+    color: white;
+    padding: 6px 1em;
+    font-weight: bold;
+    /* border: solid white 0.5px */
 }
 
 header h1 {
+    position: relative;
     margin:auto;
     text-align: center;
     font-family: 'Titillium Web';
     font-style: italic;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li {
+    display: inline;
 }
 
 body {

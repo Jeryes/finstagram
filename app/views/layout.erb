@@ -11,7 +11,25 @@
         <title>Finstagram</title>
     </head>
     <body>
-        <%= yield %>
+        <header>
+            <h1>
+                <a href="/">WATCHPOINT</a>
+            </h1>
+            <div class ="login-info">
+                <% if current_user %>
+                    <%= current_user.username %>
+                    <a href="/logout">Logout</a>
+                <% else %>
+                    <ul id="login-signup">
+                        <li><a href="/login">Login</a></li>
+                        <li><a href="/signup"><button class="button" type="button">Signup</button></a></li>
+                    </ul>
+                <% end %>
+            </div>
+        </header>
+        <main role="main">
+            <%= yield %>
+        </main>
     </body>
 </html>
     
